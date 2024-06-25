@@ -1,12 +1,21 @@
-
 import './App.css'
+import Footer from './components/footer';
+import Navbar from "./components/navbar";
+import ErrorPage from "./components/404ErrorPage"
+import { BrowserRouter as Router } from "react-router-dom";
+
 
 function App() {
 
 
   return (
     <>
-<h1>Hello World</h1>
+    <Router>
+<Navbar/>
+<ErrorPage/>
+
+<Footer/>
+</Router>
     </>
   )
 }
