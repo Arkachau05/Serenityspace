@@ -1,4 +1,4 @@
-![Screenshot 2024-06-20 165014](https://github.com/Axestein/Serenityspace/assets/142435507/50ebf08e-072e-4a7b-88b1-4577c3389db4)
+![Screenshot 2024-06-20 165014](https://github.com/Arkachau05/Serenityspace/assets/142435507/2745e8f1-8deb-42f1-b8f7-150dd0134a6a)
 We are building a website which will reduce your stress and depression.
 It will basically include AI driven support,community support and motivated resources in form of qoutes,reels and tedtalks.
 
@@ -7,7 +7,8 @@ This is a grp project which includes me, https://github.com/Arkachau05 and https
 We are building this project as we partcipated in nights and weekends S5(Buildspace)
 
 *here our designs*
-![Screenshot (79)](https://github.com/Axestein/Serenityspace/assets/142435507/2994be28-82ce-43fb-9378-994d765a4024)
+![Screenshot (79)](https://github.com/Arkachau05/Serenityspace/assets/142435507/e3cf1447-fc72-4f76-afba-5effe9e67f6b)
+
 
 we are currently building the frontend hopes for the best.
 
