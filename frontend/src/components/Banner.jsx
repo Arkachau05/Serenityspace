@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import { useState } from 'react'
+import { Dialog, DialogPanel } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 export default function Banner() {
     const [inputValue, setInputValue] = useState(""); // State for input value
@@ -14,7 +16,8 @@ export default function Banner() {
                     Become the best version of yourself
                 </div>
                 <div className="text-white font-thin text-2xl pt-5 py-20">
-                    Talk to Esmo, our new AI chatbot. Esmo will assist and support you to get rid of stress and any kind of depression you are facing.
+                    Talk to Esmo, our new AI chatbot. Esmo will assist and support you to get rid of stress and any 
+                    kind of depression you are facing.
                 </div>
                 <input
                     type="text"
