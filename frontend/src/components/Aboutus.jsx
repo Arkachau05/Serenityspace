@@ -27,7 +27,7 @@ const AboutUs = () => {
           <h2 className='text-2xl font-bold mb-4'>Meet Our Team</h2>
         </div>
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">{/* Team Member 1 */}
-          <div className="bg-white shadow-md rounded-lg px-6 py-8">
+          <div className="bg-white shadow-md rounded-lg hover:bg-gray-200 px-6 py-8">
             <div className="text-center">
             <img
             src={Adityaimg}
@@ -36,14 +36,14 @@ const AboutUs = () => {
             />
             <h2 className="text-black text-xl font-bold mb-2">Aditya Kumar Singh</h2>
             <p className="text-gray-600">Founder & Developer</p>
-            <div className="mt-4">
-            <a href="mailto:adityandmb@gmail.com" className="text-blue-300 hover:underline">Email</a> |{' '}
-            <a href="https://www.linkedin.com/in/adityakumarsingh2005/" className="text-blue-300 hover:underline">LinkedIn</a> |{' '}
+            <div className="mt-2">
+            <a href="mailto:adityandmb@gmail.com" className="text-blue-300 hover:underline">Email</a>  |{'  '}
+            <a href="https://www.linkedin.com/in/adityakumarsingh2005/" className="text-blue-300 hover:underline">LinkedIn</a>  |{'  '}
             <a href="https://twitter.com/adityasingh7211" className="text-blue-300 hover:underline">Twitter</a>
             </div>
           </div>
         </div>
-        <div className="bg-white shadow-md rounded-lg px-6 py-8">
+        <div className="bg-white shadow-md rounded-lg hover:bg-gray-200 px-6 py-8">
           <div className="text-center">
           <img
           src={Arkoimg2}
@@ -52,14 +52,14 @@ const AboutUs = () => {
           />
           <h2 className="text-black text-xl font-bold mb-2">Arkadyuti Chaudhari</h2>
           <p className="text-gray-600">CoFounder & Developer</p>
-          <div className="mt-4">
-          <a href="mailto:arkadyutichaudhuri@gmail.com" className="text-blue-300 hover:underline">Email</a> |{' '}
-          <a href="https://www.linkedin.com/in/arkadyuti-chaudhuri/" className="text-blue-300 hover:underline">LinkedIn</a> |{' '}
+          <div className="mt-2">
+          <a href="mailto:arkadyutichaudhuri@gmail.com" className="text-blue-300 hover:underline">Email</a>  |{'  '}
+          <a href="https://www.linkedin.com/in/arkadyuti-chaudhuri/" className="text-blue-300 hover:underline">LinkedIn</a>  |{'  '}
           <a href="https://x.com/CArkadyuti" className="text-blue-300 hover:underline">Twitter</a>
           </div>
        </div>
       </div>
-      <div className="bg-white shadow-md rounded-lg px-6 py-8">
+      <div className="bg-white shadow-md rounded-lg hover:bg-gray-200 px-6 py-8">
         <div className="text-center">
         <img
         src={Sameerimg}
@@ -68,9 +68,9 @@ const AboutUs = () => {
         />
         <h2 className="text-black text-xl font-bold mb-2">Sameer Yadav</h2>
         <p className="text-gray-600">CoFounder & Developer</p>
-        <div className="mt-4">
-        <a href="mailto:ysameer0026@gmail.com" className="text-blue-300 hover:underline">Email</a> |{' '}
-        <a href="https://www.linkedin.com/in/sameer-yadav-214a01282/" className="text-blue-300 hover:underline">LinkedIn</a> |{' '}
+        <div className="mt-2">
+        <a href="mailto:ysameer0026@gmail.com" className="text-blue-300 hover:underline">Email</a>  |{'  '}
+        <a href="https://www.linkedin.com/in/sameer-yadav-214a01282/" className="text-blue-300 hover:underline">LinkedIn</a>  |{'  '}
         <a href="https://x.com/ysameer001" className="text-blue-300 hover:underline">Twitter</a>
               </div>
             </div>

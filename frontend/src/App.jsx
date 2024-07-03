@@ -7,6 +7,7 @@ import AboutUs from './components/Aboutus';
 import Contactus from './components/Contactus';
 import Joinourcommunity from './components/Joinourcommunity';
 import Getmotivated from './components/Getmotivated';
+import Productive from './components/Productive';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <Navbar/>
     <Banner/>
     <Getmotivated/>
+    <Productive/>
     <Joinourcommunity/>
     <AboutUs/>
     <Contactus/>
