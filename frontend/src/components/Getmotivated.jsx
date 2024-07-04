@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetMotivated = () => {
   return (
-    <div className="bg-slate-900 text-white py-20">
+    <div id="get-motivated" className="bg-slate-900 text-white py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-6 text-center">Get Motivated</h2>
         <div className="flex flex-wrap -mx-4">
@@ -74,7 +74,7 @@ const GetMotivated = () => {
             </div>
           </div>
           {/* Right Container: Motivational Reels */}
-          <div className="w-full md:w-1/2 md:ml-auto px-4 mb-8">
+          <div className="w-full md:w-1/2 md:ml-auto px-4 mb-4">
             <div className="bg-white shadow-md rounded-lg px-6 py-8 hover:bg-gray-200 hover:shadow-lg">
               <h2 className="text-black text-2xl font-bold text-center mb-4">Motivational Reels</h2>
               <div className="text-center">
@@ -92,7 +92,7 @@ const GetMotivated = () => {
             </div>
           </div>
           {/* Fourth Container: Inspiring Stories */}
-          <div className="w-full md:w-1/2 md:ml-auto px-4 mb-8">
+          <div className="w-full md:w-1/2 md:ml-auto px-4 mb-">
             <div className="bg-white shadow-md rounded-lg px-6 py-8 hover:bg-gray-200 hover:shadow-lg">
               <h2 className="text-black text-2xl font-bold text-center mb-4">Inspiring Stories</h2>
               <div className="text-center">
