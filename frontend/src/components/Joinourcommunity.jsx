@@ -18,7 +18,7 @@ const JoinOurCommunity = () => {
   };
 
   return (
-    <div className="bg-gray-900 text-white py-12">
+    <div id="community" className="bg-gray-900 text-white py-12">
       <div className="container px-6 py-8 mx-auto">
         <h2 className="text-3xl font-bold text-center mb-8">Join Our Community</h2>
         <p className="text-lg text-center mb-6">

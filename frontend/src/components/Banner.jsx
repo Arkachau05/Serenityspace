@@ -2,6 +2,9 @@ import { useState } from 'react';
 import curve from "../assets/hero/curve.png";
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import patternm from '../assets/services/patternm.png';
+import spotlightl from '../assets/services/spotlightl.png';
+import spotlightr from '../assets/services/spotlightr.png';
 
 export default function Banner() {
     const [inputValue, setInputValue] = useState(""); // State for input value
@@ -20,39 +23,56 @@ export default function Banner() {
     };
 
     return (
-        <div className="bg-slate-900 w-full py-[100px]">
-            <div className="max-w-[1240px] mx-auto text-center">
-                <div className="text-white font-bold text-6xl md:text-7xl py-12">
+        <div className="relative bg-slate-900 w-full py-[100px]">
+            {/* Background Patterns */}
+            <img
+                src={spotlightl}
+                alt="Pattern Background"
+                className="absolute top-0 left-0 w-full h-full object-cover z-0"
+            />
+            <img
+                src={patternm}
+                alt="Pattern Background"
+                className="absolute top-0 left-0 w-full h-full object-cover z-0"
+            />
+            <img
+                src={spotlightr}
+                alt="Pattern Background"
+                className="absolute top-0 left-0 w-full h-full object-cover z-0"
+            />
+
+            <div className="relative z-10 max-w-[1240px] mx-auto text-center">
+                <div className="text-white font-bold text-6xl md:text-7xl py-12 relative">
                     Become the best version of yourself
                 </div>
                 <div>
-                <img
-                src={curve}
-                alt="curve desgin"
-                className="mt-2 mb-2"
-                />
+                    <img
+                        src={curve}
+                        alt="curve design"
+                        className="mt-2 mb-2 relative"
+                    />
                 </div>
-                <div className="text-white font-thin text-xl md:text-2xl py-10 md:py-20">
+                <div className="text-white font-thin text-xl md:text-2xl py-10 md:py-20 relative">
                     Talk to Esmo, our new AI chatbot. Esmo will assist and support you to get rid of stress and any kind of depression you are facing.
                 </div>
-                <div className="flex flex-wrap justify-center">
+                <div className="flex flex-wrap justify-center relative">
                     <input
                         type="text"
                         value={inputValue}
                         onChange={handleInputChange}
                         placeholder="Enter your message..."
-                        className="mt-5 mb-4 p-4 rounded-xl bg-white border-none text-black focus:outline-none h-16 w-[85vw] max-w-[650px] md:w-[50vw] md:max-w-[700px]"
+                        className="mt-5 mb-4 p-4 rounded-xl bg-white border-none text-black focus:outline-none h-16 w-[85vw] max-w-[650px] md:w-[50vw] md:max-w-[700px] z-10"
                     />
                     <button
                         onClick={openDialog}
-                        className="mt-5 p-4 ml-2 rounded-xl bg-blue-500 text-white font-semibold hover:bg-blue-600 focus:outline-none h-16 w-[85vw] max-w-[75px] md:w-[50vw]" 
+                        className="mt-5 p-4 ml-2 rounded-xl bg-blue-500 text-white font-semibold hover:bg-blue-600 focus:outline-none h-16 w-[85vw] max-w-[75px] md:w-[50vw] z-10"
                     >
                         Chat
                     </button>
                 </div>
 
             </div>
-            <Dialog open={isOpen} onClose={closeDialog} className="fixed inset-0 z-10 overflow-y-auto">
+            <Dialog open={isOpen} onClose={closeDialog} className="fixed inset-0 z-50 overflow-y-auto">
                 <DialogPanel className="flex items-center justify-center min-h-screen">
                     <div className="bg-white rounded-lg p-8 max-w-md w-full">
                         <div className="flex justify-end">
