@@ -8,6 +8,7 @@ import Contactus from './components/Contactus';
 import Joinourcommunity from './components/Joinourcommunity';
 import Getmotivated from './components/Getmotivated';
 import Productive from './components/Productive';
+import SelfAssessment from './components/Selfassessment';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <Router>
     <Navbar/>
     <Banner/>
+    <SelfAssessment/>
     <Getmotivated/>
     <Productive/>
     <Joinourcommunity/>
