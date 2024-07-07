@@ -10,7 +10,7 @@ const Productive = () => {
       <img
         src={grid}
         alt="Grid Image"
-        className="absolute inset-0 w-full h-full object-cover opacity-45"
+        className="absolute inset-0 w-full h-full object-cover opacity-55"
       />
 
       <div className="container relative mx-auto px-4 z-10">
