@@ -9,6 +9,7 @@ import Joinourcommunity from './components/Joinourcommunity';
 import Getmotivated from './components/Getmotivated';
 import Productive from './components/Productive';
 import SelfAssessment from './components/Selfassessment';
+import Mindset from './components/Mindset';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
     <SelfAssessment/>
     <Getmotivated/>
     <Productive/>
+    <Mindset/>
     <Joinourcommunity/>
     <AboutUs/>
     <Contactus/>
