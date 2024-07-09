@@ -1,7 +1,8 @@
 import React from 'react';
 import Adityaimg from '../assets/services/Adityaimg.jpeg';
-import Arkoimg2 from '../assets/services/Arkoimg2.jpeg';
 import Sameerimg from '../assets/services/Sameerimg.jpeg';
+import ArkoImag from '../assets/services/ArkoImag.jpeg';
+import AdityaImag from '../assets/services/AdityaImag.jpg';
 
 const AboutUs = () => {
   return (
@@ -29,7 +30,7 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">{/* Team Member 1 */}
         <div className="bg-white shadow-md rounded-lg px-6 py-8 hover:bg-gray-200 transition duration-300">
               <img
-                src={Adityaimg}
+                src={AdityaImag}
                 alt="Aditya Kumar Singh"
                 className="rounded-full mx-auto h-48 w-48 mb-4 object-cover"
               />
@@ -45,7 +46,7 @@ const AboutUs = () => {
             {/* Team Member 2 */}
             <div className="bg-white shadow-md rounded-lg px-6 py-8 hover:bg-gray-200 transition duration-300">
               <img
-                src={Arkoimg2}
+                src={ArkoImag}
                 alt="Arkadyuti Chaudhari"
                 className="rounded-full mx-auto h-48 w-48 mb-4 object-cover"
               />
