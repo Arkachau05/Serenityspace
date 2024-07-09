@@ -3,13 +3,15 @@ import grid from '../assets/services/grid.png';
 import mcgwal from '../assets/services/mcgwal.jpg';
 import mtwal from '../assets/services/mtwal.png';
 import kbwal from '../assets/services/kbwal.jpg';
+import dgwal from '../assets/services/dgwal.webp';
+import zlwal from '../assets/services/zlwal.png';
 
 const Mindset = () => {
   // State to manage current image index
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   // Array of images for sliding functionality
-  const images = [mcgwal, kbwal, mtwal];
+  const images = [mcgwal, zlwal, kbwal, dgwal, mtwal];
 
   // Function to handle next image click
   const nextImage = () => {

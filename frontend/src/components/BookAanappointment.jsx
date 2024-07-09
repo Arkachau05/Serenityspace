@@ -18,7 +18,7 @@ const BookAnAppointment = () => {
   };
 
   return (
-    <div className="relative bg-slate-900 text-white py-20">
+    <div className="bg-gray-100 py-12">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Book an Appointment</h2>
         <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
