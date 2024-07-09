@@ -129,15 +129,15 @@ const SelfAssessment = () => {
       <div className="container mx-auto px-4 py-8 bg-slate-900 text-white mb-8">
         <div className="bg-slate-800 rounded-2xl">
             <div className="md:flex md:items-center">
-              <div className="md:w-1/2 md:pr-4 mb-8 ml-16">
-                <p className="text-4xl font-bold mb-4">Welcome to Serenity Space</p>
-                <p className="text-lg mb-4">
+              <div className="md:w-full md:px-4 mb-8">
+                <p className="text-4xl font-bold mb-4 text-center">Welcome to Serenity Space</p>
+                <p className="text-lg mb-4 text-center">
                   Here we prioritize your mental well-being.
                   Before we proceed further, take a moment to assess your mental health. 
                   Scroll down, answer all the questions, and discover your mental health score.
                 </p>
               </div>
-              <div className="md:w-1/2 md:pl-4 flex justify-center">
+              <div className="md:w-full md:px-4 flex justify-center">
                 <img src={gola} alt="gola image" className="rounded-xl max-w-full h-auto" style={{ maxWidth: '320px' }} />
               </div>
             </div>
