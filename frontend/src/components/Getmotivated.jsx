@@ -40,9 +40,7 @@ const GetMotivated = () => {
                  So Why not feel untouchable? Why not feel like the best ever to do it? - Conor McGregor
                  </blockquote>
                 </p>
-                <p className="italic text-gray-600 mb-4">
-                  "If you are born poor its not your mistake, But if you die poor its your mistake" - Bill Gates
-                </p>
+                
                 <p>
                  <blockquote class="italic text-center text-gray-600 mb-4">
                  The most precious thing that we all have with us is
