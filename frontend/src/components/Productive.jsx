@@ -65,13 +65,9 @@ const Productive = () => {
 
         {/* Second section */}
         <div className="flex flex-col md:flex-row items-center justify-center mb-16">
-          <div className="md:w-1/2 md:pr-10 order-2 md:order-1 md:mt-0">
-            <img
-              src={gaming}
-              alt="Gaming Image"
-              className="rounded-xl max-w-full h-auto"
-              style={{ maxWidth: '500px' }}
-            />
+          
+          <div className="md:w-1/2 mt-8 order-2 md:order-1 md:mt-0">
+            <img src={gaming} alt="gaming Image" className="rounded-xl" />
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 order-1 md:order-2">
             <p className="text-lg md:text-xl mb-6 leading-relaxed text-white">

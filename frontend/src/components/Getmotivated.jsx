@@ -43,6 +43,9 @@ const GetMotivated = () => {
                 <p className="italic text-gray-600 mb-4">
                   "If you are born poor its not your mistake, But if you die poor its your mistake" - Bill Gates
                 </p>
+                <p className="italic text-gray-600 mb-4">
+                  "Face the failure, until the failure fails to face you." - MS Dhoni
+                </p>
                 <p>
                  <blockquote class="italic text-center text-gray-600 mb-4">
                  The most precious thing that we all have with us is
