@@ -92,7 +92,7 @@ export default function Banner() {
 
                 {/* Chatbot Interaction Container */}
                 {answer && (
-                    <div className="fixed bottom-8 right-8 bg-white rounded-lg shadow-lg p-4 max-w-[400px] w-full max-h-[400px] overflow-y-auto">
+                    <div className="fixed bottom-8 right-8 bg-white rounded-lg shadow-lg p-4 max-w-[400px] w-full max-h-[400px] overflow-y-auto z-50">
                         <div className="flex items-center mb-4">
                             <div className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold mr-2">
                                 E
@@ -102,7 +102,7 @@ export default function Banner() {
                             </div>
                             <button
                                 onClick={closeEsmoContainer}
-                                className="text-gray-400 hover:text-gray-600 focus:outline-none"
+                                className="text-gray-500 hover:text-gray-700 focus:outline-none"
                             >
                                 <XMarkIcon className="h-6 w-6" />
                             </button>
