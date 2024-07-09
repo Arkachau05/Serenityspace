@@ -5,6 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import patternm from '../assets/services/patternm.png';
 import spotlightl from '../assets/services/spotlightl.png';
 import spotlightr from '../assets/services/spotlightr.png';
+import axios from 'axios';
 
 export default function Banner() {
     const [inputValue, setInputValue] = useState(""); // State for input value
@@ -12,6 +13,7 @@ export default function Banner() {
 
     const handleInputChange = (e) => {
         setInputValue(e.target.value);
+        
     };
 
     const openDialog = () => {
@@ -21,6 +23,24 @@ export default function Banner() {
     const closeDialog = () => {
         setIsOpen(false);
     };
+    const [answer, setAnswer] = useState("");
+
+  async function generateAnswer(){
+    setAnswer("loading...");
+    const response = await axios({
+      url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCtYnRUaJc1-Fd3HdwcTWUj7f_7y9vkffY",
+      method:"post",
+      data:{
+        contents: [
+          {parts: [{text: inputValue }]}
+        ],
+      },
+});
+
+  setAnswer(response['data']['candidates'][0]['content']['parts'][0]['text'])
+  
+}
+
 
     return (
         <div className="relative bg-slate-900 w-full py-[100px]">
@@ -58,19 +78,25 @@ export default function Banner() {
                 <div className="flex flex-wrap justify-center relative">
                     <input
                         type="text"
-                        value={inputValue}
-                        onChange={handleInputChange}
+                        value={inputValue} onChange={(e)=>setInputValue(e.target.value)}
+                        
                         placeholder="Enter your message..."
                         className="mt-5 mb-4 p-4 rounded-xl bg-white border-none text-black focus:outline-none h-16 w-[85vw] max-w-[650px] md:w-[50vw] md:max-w-[700px] z-10"
                     />
                     <button
-                        onClick={openDialog}
+                        onClick={generateAnswer}
                         className="mt-5 p-4 ml-2 rounded-xl bg-blue-500 text-white font-semibold hover:bg-blue-600 focus:outline-none h-16 w-[85vw] max-w-[75px] md:w-[50vw] z-10"
                     >
                         Chat
                     </button>
                 </div>
 
+
+<div class="flex items-center text-white">
+  <div>
+    <strong>{answer}</strong>
+  </div>
+</div>
             </div>
             <Dialog open={isOpen} onClose={closeDialog} className="fixed inset-0 z-50 overflow-y-auto">
                 <DialogPanel className="flex items-center justify-center min-h-screen">

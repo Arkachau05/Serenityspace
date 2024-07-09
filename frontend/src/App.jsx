@@ -10,7 +10,8 @@ import Getmotivated from './components/Getmotivated';
 import Productive from './components/Productive';
 import SelfAssessment from './components/Selfassessment';
 import Mindset from './components/Mindset';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import BookAnAppointment from "./components/BookAanappointment"
 function App() {
 
 
@@ -23,6 +24,7 @@ function App() {
     <Getmotivated/>
     <Productive/>
     <Mindset/>
+    <BookAnAppointment/>
     <Joinourcommunity/>
     <AboutUs/>
     <Contactus/>
