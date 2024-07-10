@@ -1,4 +1,4 @@
-![App Logo](https://github.com/Arkachau05/Serenityspace/assets/142383265/48ec7d8f-daed-4931-a0e7-d7b45b8a3c08)  
+<img src="https://github.com/Arkachau05/Serenityspace/assets/142383265/48ec7d8f-daed-4931-a0e7-d7b45b8a3c08" alt="App Logo" width="150"/>
 ## Serenity Space
 
 A website which will reduce your stress and depression. It will basically include AI driven support,community support and motivated resources in form of qoutes,reels and tedtalks.
