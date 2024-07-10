@@ -71,8 +71,16 @@ export default function Banner() {
                         className="mt-2 mb-2 relative"
                     />
                 </div>
-                <div className="text-white font-thin text-xl md:text-2xl py-10 md:py-20 relative">
-                    Talk to Esmo, our new AI chatbot. Esmo will assist and support you to get rid of stress and any kind of depression you are facing.
+                <div className="text-white font-medium text-3xl md:text-4xl py-10 md:py-20 relative">
+                Talk to <span className=" text-blue-700 font-bold ">E</span>
+                <span className=" text-blue-600 font-bold ">s</span>
+                <span className=" text-violet-500 font-bold ">m</span>
+                <span className=" text-violet-600 font-bold ">o</span>,
+                our new AI chatbot. <span className=" text-blue-700  font-bold ">E</span>
+                <span className=" text-blue-600 font-bold ">s</span>
+                <span className=" text-violet-500 font-bold ">m</span>
+                <span className=" text-violet-600 font-bold ">o</span>,
+                will assist and support you to get rid of stress and any kind of depression you are facing.
                 </div>
                 <div className="flex flex-wrap justify-center relative">
                     <input
@@ -98,7 +106,10 @@ export default function Banner() {
                                 E
                             </div>
                             <div className="flex-1">
-                                <p className="text-gray-800 font-semibold">Esmo</p>
+                                <span className=" text-blue-700 font-semibold ">E</span>
+                                <span className=" text-blue-600 font-semibold">s</span>
+                                <span className=" text-violet-500 font-semibold ">m</span>
+                                <span className=" text-violet-600 font-semibold ">o</span>
                             </div>
                             <button
                                 onClick={closeEsmoContainer}
