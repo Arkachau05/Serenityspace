@@ -10,6 +10,7 @@ import Getmotivated from './components/Getmotivated';
 import Productive from './components/Productive';
 import SelfAssessment from './components/Selfassessment';
 import Mindset from './components/Mindset';
+import { Analytics } from "@vercel/analytics/react"
 function App() {
 
 
@@ -26,6 +27,7 @@ function App() {
     <AboutUs/>
     <Contactus/>
     <Footer/>
+    <Analytics/>
     </Router>
     </>
   )
