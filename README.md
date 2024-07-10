@@ -24,7 +24,7 @@ Ensure you have the following installed on your system:
 
 *Use these commands in your terminal*
 
-1. Clone the repository: git clone https://github.com/yourusername/serenity-space.git
+1. Clone the repository: git clone https://github.com/yourusername/Serenityspace.git
 
 2. Navigate to the project directory: cd serenity-space
 
