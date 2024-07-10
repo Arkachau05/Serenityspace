@@ -1,7 +1,7 @@
 
 # Serenity Space
 
-This is a website where people can get rid of their depression and sadness by talking to our AI chatbot.
+A website which will reduce your stress and depression. It will basically include AI driven support,community support and motivated resources in form of qoutes,reels and tedtalks.
 
 
 ## Features
