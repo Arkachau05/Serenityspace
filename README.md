@@ -1,3 +1,7 @@
+<img src="https://github.com/Arkachau05/Serenityspace/assets/142383265/48ec7d8f-daed-4931-a0e7-d7b45b8a3c08" alt="App Logo" width="150"/>
+## Serenity Space
+
+
 ![Screenshot 2024-06-20 165014](https://github.com/Arkachau05/Serenityspace/assets/142435507/2745e8f1-8deb-42f1-b8f7-150dd0134a6a)
 We are building a website which will reduce your stress and depression.
 It will basically include AI driven support,community support and motivated resources in form of qoutes,reels and tedtalks.
