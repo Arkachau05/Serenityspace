@@ -1,4 +1,4 @@
-<img src="https://github.com/Arkachau05/Serenityspace/assets/142383265/48ec7d8f-daed-4931-a0e7-d7b45b8a3c08" alt="App Logo" width="50"/>
+<img src="https://github.com/Arkachau05/Serenityspace/assets/142383265/48ec7d8f-daed-4931-a0e7-d7b45b8a3c08" alt="App Logo" width="40"/>
 
 ## Serenity Space
 
