@@ -4,7 +4,7 @@ import gswal from '../assets/services/gswal.png';
 
 const JoinOurCommunity = () => {
   return (
-    <div id="community" className="bg-slate-900 text-white py-12">
+    <div id="community" className="bg-black text-white py-12">
       <div className="container px-6 py-8 mx-auto flex flex-col md:flex-row items-center justify-center">
         {/* Left side content */}
         <div className="md:w-1/2 md:pr-10 text-center md:text-left mb-8 md:mb-0">

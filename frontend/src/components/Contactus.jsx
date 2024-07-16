@@ -20,7 +20,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div id="contact" className="bg-slate-900 text-white py-20">
+    <div id="contact" className="bg-black text-white py-20">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl font-bold mb-6">Contact Us</h2>
         <form onSubmit={handleSubmit}>
@@ -30,7 +30,7 @@ const ContactUs = () => {
               type="text"
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
-              className="w-full px-3 py-2 border rounded-lg bg-slate-800 text-white"
+              className="w-full px-3 py-2 border rounded-lg bg-gray-400 text-white"
               required
             />
           </div>
@@ -40,7 +40,7 @@ const ContactUs = () => {
               type="text"
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
-              className="w-full px-3 py-2 border rounded-lg bg-slate-800 text-white"
+              className="w-full px-3 py-2 border rounded-lg bg-gray-400 text-white"
               required
             />
           </div>
@@ -50,7 +50,7 @@ const ContactUs = () => {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-3 py-2 border rounded-lg bg-slate-800 text-white"
+              className="w-full px-3 py-2 border rounded-lg bg-gray-400 text-white"
               required
             />
           </div>
@@ -60,7 +60,7 @@ const ContactUs = () => {
               type="tel"
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
-              className="w-full px-3 py-2 border rounded-lg bg-slate-800 text-white"
+              className="w-full px-3 py-2 border rounded-lg bg-gray-400 text-white"
               required
             />
           </div>
@@ -69,7 +69,7 @@ const ContactUs = () => {
             <textarea
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full px-3 py-2 border rounded-lg bg-slate-800 text-white"
+              className="w-full px-3 py-2 border rounded-lg bg-gray-400 text-white"
               rows="4"
               required
             />

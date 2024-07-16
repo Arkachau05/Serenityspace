@@ -124,10 +124,10 @@ const SelfAssessment = () => {
   };
 
   return (
-    <div className="bg-slate-900 min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-black min-h-screen flex flex-col items-center justify-center">
       {/* Welcome Section */}
-      <div className="container mx-auto px-4 py-8 bg-slate-900 text-white mb-8">
-        <div className="bg-slate-800 rounded-2xl">
+      <div className="container mx-auto px-4 py-8 bg-black text-white mb-8">
+        <div className="bg-gray-600 rounded-2xl">
             <div className="md:flex md:items-center">
               <div className="md:w-full md:px-4 mb-8">
                 <p className="text-4xl font-bold mb-4 text-center">Welcome to Serenity Space</p>

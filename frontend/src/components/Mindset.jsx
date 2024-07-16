@@ -24,12 +24,12 @@ const Mindset = () => {
   };
 
   return (
-    <div id="mindset" className="relative bg-slate-900 text-white py-20">
+    <div id="mindset" className="relative bg-black text-white py-20">
       {/* Background grid image */}
       <img
         src={grid}
         alt="Grid Image"
-        className="absolute inset-0 w-full h-full object-cover opacity-55"
+        className="absolute inset-0 w-full h-full object-cover opacity-130"
       />
 
       <div className="container relative mx-auto px-4 z-10">
