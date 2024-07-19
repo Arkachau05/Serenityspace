@@ -10,6 +10,7 @@ import Getmotivated from './components/Getmotivated';
 import Productive from './components/Productive';
 import SelfAssessment from './components/Selfassessment';
 import Mindset from './components/Mindset';
+import Testimonals from './components/Testimonal';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
     <Mindset/>
     <Joinourcommunity/>
     <AboutUs/>
+    <Testimonals/>
     <Contactus/>
     <Footer/>
     </Router>
