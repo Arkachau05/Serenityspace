@@ -2,9 +2,8 @@ import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 
 const Testimonials = () => {
-  // Sample data (you can fetch this data from an API or calculate dynamically)
   const totalVisitors = 100;
-  const pageViews = 150; // Assuming this is a dynamic value
+  const pageViews = 150; 
   const reviews = [
     { id: 1, text: 'That\'s amazing what a wonderful project i am amazed and for sure it gonna help a lot of people thank you for being out such a awesome project like this. It\'s a big step to help teen and people with depression and live confidentially and happily ', author: 'Ayush Upadhyay', linkedinUrl: 'https://www.linkedin.com/feed/update/urn:li:ugcPost:7217263112771575808?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7217263112771575808%2C7217538561774862336%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287217538561774862336%2Curn%3Ali%3AugcPost%3A7217263112771575808%29' },
     { id: 2, text: 'Impressive!', author: 'Abhijit Ranjan', linkedinUrl: 'https://www.linkedin.com/feed/update/urn:li:ugcPost:7217263112771575808?commentUrn=urn%3Ali%3Acomment%3A%28ugcPost%3A7217263112771575808%2C7217265855301079040%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287217265855301079040%2Curn%3Ali%3AugcPost%3A7217263112771575808%29' },
@@ -16,7 +15,6 @@ const Testimonials = () => {
         <h1 className="text-4xl font-bold text-white text-center mb-8">Testimonials</h1>
 
         <div className="flex justify-center space-x-4">
-          {/* Visitors Box */}
           <div className="w-1/3 bg-white shadow-md rounded-lg p-6 hover:bg-gray-200 transition duration-300">
             <h2 className="text-xl font-bold mb-4 text-center">Total Visitors</h2>
             <p className="text-3xl text-center">{totalVisitors}+</p>
@@ -24,7 +22,6 @@ const Testimonials = () => {
             <p className="text-3xl text-center">{pageViews}+</p>
           </div>
 
-          {/* Reviews Box */}
           <div className="w-2/3 bg-white shadow-md rounded-lg p-6 hover:bg-gray-200 transition duration-300">
             <h2 className="text-xl font-bold mb-4 text-center">Reviews</h2>
             <ul>
