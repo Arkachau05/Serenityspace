@@ -20,7 +20,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div id="contact" className="bg-slate-900 text-white py-20">
+    <div id="contact" className="bg-black text-white py-20">
       <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl font-bold mb-6">Contact Us</h2>
         <form onSubmit={handleSubmit}>

@@ -9,7 +9,7 @@ export default function Header() {
     };
 
     return (
-        <div className="bg-slate-900 p-4">
+        <div className="bg-black p-4">
             <div className="max-w-[1240px] py-[20px] items-center flex justify-between border-black mx-auto">
                 <div className="text-white font-bold text-3xl">Serenity Space</div>
                 {toggle ? (

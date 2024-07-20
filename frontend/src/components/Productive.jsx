@@ -5,7 +5,7 @@ import grid from '../assets/services/grid.png';
 
 const Productive = () => {
   return (
-    <div id="get-productive" className="relative bg-slate-900 text-white py-20">
+    <div id="get-productive" className="relative bg-black text-white py-20">
       {/* Background grid image */}
       <img
         src={grid}

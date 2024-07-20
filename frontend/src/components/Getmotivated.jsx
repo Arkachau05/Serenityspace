@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetMotivated = () => {
   return (
-    <div id="get-motivated" className="bg-slate-900 text-white py-20">
+    <div id="get-motivated" className="bg-black text-white py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-6 text-center">Get Motivated</h2>
         <div className="flex flex-wrap -mx-4">
