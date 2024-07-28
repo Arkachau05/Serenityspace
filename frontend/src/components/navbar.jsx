@@ -9,7 +9,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900 fixed top-0 left-0 right-0 z-50 shadow-md">
+        <nav className=" border-gray-200 py-2.5 bg-black fixed top-0 left-0 right-0 z-50 shadow-md">
             <div className="flex items-center justify-between max-w-screen-xl px-4 mx-auto">
                 <a href="#" className="flex items-center">
                     <img src={SerenitySpaceNavbarlogo} className="h-6 mr-3 sm:h-9" alt="Serenity Space Logo" />
